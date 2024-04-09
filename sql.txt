@@ -1,0 +1,24 @@
+MySQL is a database.
+SQL is a Programming language.
+MySQL(DB)<----SQL(Lang)<----Developer
+
+Database - It is a collection of data in a format that can be easily accessed.
+
+Why Databases?
+Can store large data
+Features like security,scalability etc.
+Easier to insert,update or delete data.
+
+SQL(Structured Query Language)
+Relational Database
+(Data stored in Tables)
+eg- MySQL,Oracle etc.
+
+NoSQL
+Non Relational Database
+(data stored in document/key-val/graphs etc.)
+eg- MongoDb,Neo4j etc.
+
+
+
+
