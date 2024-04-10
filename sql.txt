@@ -29,5 +29,23 @@ create table table_name(
     column_name3 datatype constraint,
 )
 
+insert into name of table (to insert value into table)
+values
+(
+ values
+)
+
+select * from table_name; (to view the table)
+
+DATABASE QUERIES
+
+create database name;
+create database if not exists name;
+
+show databases;
+use name; then show tables;
+
+drop database name;
+drop databse if exist name;
 
 
