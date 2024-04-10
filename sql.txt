@@ -129,3 +129,14 @@ select col1,col2, agg function(name of column)
 from table_name
 group by col_name; ---(syntax)
 
+Having Clause
+(applies some condition on rows)
+(Having is for a group) (where is for the table)
+grouping is necessary for Having
+
+select col1,col2
+from table_name
+group by col_name
+Having condition;
+
+
