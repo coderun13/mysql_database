@@ -91,6 +91,21 @@ syntax - select col1,col2 from table_name;
 
 (to show all) - select*from table_name;
 
+UPDATE Command
+(to update existing rows)
+
+update table_name ----(syntax)
+set col1 =val1,col2 = val2
+where condition;
+
+set sql_safe_updates = 0; (to avoid error)
+
+DELETE Command
+(to delete existing rows)
+
+Delete from table_name
+where conditon;
+
 Where Clause
 (to define some conditions)
 
@@ -139,4 +154,12 @@ from table_name
 group by col_name
 Having condition;
 
+General ORDER
+
+SELECT column
+FROM table_name
+WHERE condition
+GROUP BY column
+HAVING condition
+ORDER BY column ASC;
 
