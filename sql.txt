@@ -91,9 +91,10 @@ syntax - select col1,col2 from table_name;
 
 (to show all) - select*from table_name;
 
+Where Clause
+(to define some conditions)
 
-
-
-
+Select col1,col2 from table_name
+where conditions;
 
 
