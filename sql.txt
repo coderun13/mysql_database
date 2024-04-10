@@ -121,9 +121,11 @@ MIN()
 SUM()
 AVG()
 
+Group by Clause
+groups rows that have the same values into summary rows.
+It collects data from multiple records and groups the result by one or more column.
 
-
-
-
-
+select col1,col2, agg function(name of column)
+from table_name
+group by col_name; ---(syntax)
 
