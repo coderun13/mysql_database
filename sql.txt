@@ -49,3 +49,11 @@ drop database name;
 drop databse if exist name;
 
 
+TABLE QUERIES
+
+Create (create new table)
+Insert (insert data)
+Update (update data)
+Alter (schema alter)
+Truncate (table full empty)
+Delete (delete full table )
