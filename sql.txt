@@ -19,6 +19,15 @@ Non Relational Database
 (data stored in document/key-val/graphs etc.)
 eg- MongoDb,Neo4j etc.
 
+create database name; (to create new database)
+drop database name; (to delete a database)
+use name; (to create tables)
+
+create table table_name(
+    column_name1 datatype constraint(rules),
+    column_name2 datatype constraint,
+    column_name3 datatype constraint,
+)
 
 
 
