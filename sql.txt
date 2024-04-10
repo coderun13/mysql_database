@@ -57,3 +57,29 @@ Update (update data)
 Alter (schema alter)
 Truncate (table full empty)
 Delete (delete full table )
+
+Create Table
+
+CREATE Table name (
+    column name1 datatype constraint,
+    column name2 datatype constraint,
+);
+
+Contraints
+(rules for data in table)
+NOT NULL - columns cannot have a null value
+UNIQUE - all values in column are different 
+DEFAULT - sets the default value of a column
+CHECK - it can limit the values allowed in a column
+
+e.g constraint age_name check(age >= 18 and city = "delhi")
+
+CONSTRAINTS
+PRIMARY KEY - makes a column unique and not null but used only for one.
+there is only 1 pk and it should be not null.
+    primary key (name of column)
+
+FOREIGN KEY - prevent actions that would destroy links between tables
+FK can have dupicate and null values.
+there can be multiple FKs.   
+    foreign key (table_id) references name of table(id)
