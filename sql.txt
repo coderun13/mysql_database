@@ -106,6 +106,24 @@ DELETE Command
 Delete from table_name
 where conditon;
 
+ALTER Command
+(to change the schema)(column related)
+
+ADD column
+ALTER TABLE table_name
+add column column_name datatype constraint;
+
+DROP column
+ALTER TABLE table_name
+DROP column column_name;
+
+RENAME table
+ALTER TABLE table_name
+Rename TO new_table_name;
+
+
+
+
 Where Clause
 (to define some conditions)
 
