@@ -103,4 +103,21 @@ Comparison operators : =, !=, >, >=, <, <=
 Logical operators : AND, OR, NOT, IN, BETWEEN, ALL, LIKE, ANY
 Bitwise operators : &(bitwise AND), |(bitwise OR) 
 
+Limit Clause
+(sets an upper limit on number of rows to be returned)
+
+select col1,col2 from table_name
+Limit number;
+
+Order by Clause
+ascending(ASD) or descending(DESC)
+order by col_name asc; (syntax)
+
+
+
+
+
+
+
+
 
