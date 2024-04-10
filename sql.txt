@@ -83,3 +83,17 @@ FOREIGN KEY - prevent actions that would destroy links between tables
 FK can have dupicate and null values.
 there can be multiple FKs.   
     foreign key (table_id) references name of table(id)
+
+Select Command
+(selects and show data from db)
+
+syntax - select col1,col2 from table_name;
+
+(to show all) - select*from table_name;
+
+
+
+
+
+
+
