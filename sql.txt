@@ -97,4 +97,10 @@ Where Clause
 Select col1,col2 from table_name
 where conditions;
 
+Operators
+arithmetic operators : +,-,*,/,%
+Comparison operators : =, !=, >, >=, <, <=
+Logical operators : AND, OR, NOT, IN, BETWEEN, ALL, LIKE, ANY
+Bitwise operators : &(bitwise AND), |(bitwise OR) 
+
 
