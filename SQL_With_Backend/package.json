@@ -9,6 +9,7 @@
   "author": "snehal singh",
   "license": "ISC",
   "dependencies": {
+    "@faker-js/faker": "^8.4.1",
     "express": "^4.19.2"
   }
 }
